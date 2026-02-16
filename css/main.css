@@ -1,4 +1,4 @@
-
+/* hero */
 .hero-bg{
   background-image: url("img/bg.jpg");
   background-size: cover;
@@ -25,3 +25,18 @@
 .btn-link {
   color: #ff2b7a !important;
 }
+.text-pink{
+  color: #ff2b7a !important;
+}
+body{
+  padding-top: 50px; 
+}
+
+
+/* about */
+.about{
+  background-image: url("img/dots.avif");
+  background-size: 180px 180px;
+  
+}
+
