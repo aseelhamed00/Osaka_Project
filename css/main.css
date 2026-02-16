@@ -1,0 +1,27 @@
+
+.hero-bg{
+  background-image: url("img/bg.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+
+.hero-bg {
+  position: relative; 
+}
+
+.letter-space{
+  letter-spacing: 2px;
+}
+.navbar .nav-link {
+  color: #fff;
+}
+
+.navbar .nav-link.text-pink {
+  color: #ff2b7a !important;
+}
+
+.btn-link {
+  color: #ff2b7a !important;
+}
