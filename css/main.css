@@ -1,6 +1,6 @@
 /* hero */
 .hero-bg{
-  background-image: url("img/bg.jpg");
+  background-image: url("img/bg\ .jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -35,8 +35,75 @@ body{
 
 /* about */
 .about{
-  background-image: url("img/dots.avif");
+  background-image: url("img/light_dot.jpg");
   background-size: 180px 180px;
   
 }
 
+/*Portfolio*/
+
+
+.portfolio{
+  background-image: url("img/light_dot.jpg");
+  background-size: 180px 180px;
+}
+
+
+
+.nav-pills .nav-link.active{
+  background: transparent !important;
+  color: #ff2b7a !important;
+}
+
+
+
+.nav .nav-link.active {
+  color: #ff2b7a !important; 
+  background: transparent !important; 
+}
+
+/*testimonials*/
+
+
+
+.testi-box{ max-width: 1100px; }
+
+
+.testi-avatar{
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+  margin-top: -45px;   
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.pink-line{
+  width: 45px;
+  height: 2px;
+  background: #ff2b7a;
+}
+
+.carousel-indicators{
+  gap: 10px; 
+}
+
+.carousel-indicators button{
+  width: 5px !important;
+  height: 5px !important;
+  border-radius: 50% !important;
+  background-color: #cfcfcf !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  opacity: 1 !important;
+  transform: none !important;   
+}
+
+.carousel-indicators .active{
+  background-color: #000 !important; 
+}
